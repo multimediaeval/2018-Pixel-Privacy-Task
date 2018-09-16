@@ -29,18 +29,18 @@ To participate in the task, you must submit versions of the test images to which
 ## Where to find the necessary recources
 * You will need the validation images from the Places365-Standard data set, which can be downloaded here: http://places2.csail.mit.edu/download.html
 * The validation and the test sets for the MediaEval 2018 Pixel Privacy task are subsets of these validation images. Download the files that define these sets from: https://github.com/multimediaeval/2018-Pixel-Privacy-Task/tree/master/MEPP18labels
-** `MEPP18val.csv`: File names of the images that belong to the MediaEval 2018 Pixel Privacy task validation set (3,000 images total, 50 for each of the 60 privacy-senstive scene categories). Use this set of images to develop your approach(es) to protective transformation.
-** `MEPP18test.csv`: File names of the images that belong to the MediaEval 2018 Pixel Privacy task test set (3,000 images total, 50 for each of the 60 privacy-senstive scene categories). Apply your transformations to the test set images, and submit the protected test set images for evaluation.
-** `MEPP18test_manual.csv`: A list of one image per category from the test set. If 'MEPP18test.csv' is alphabetized, this is the first image in every category. Focus on these image if you are applying protective transformations by manually manipulating the images.
+  * `MEPP18val.csv`: File names of the images that belong to the MediaEval 2018 Pixel Privacy task validation set (3,000 images total, 50 for each of the 60 privacy-senstive scene categories). Use this set of images to develop your approach(es) to protective transformation.
+  * `MEPP18test.csv`: File names of the images that belong to the MediaEval 2018 Pixel Privacy task test set (3,000 images total, 50 for each of the 60 privacy-senstive scene categories). Apply your transformations to the test set images, and submit the protected test set images for evaluation.
+  * `MEPP18test_manual.csv`: A list of one image per category from the test set. If 'MEPP18test.csv' is alphabetized, this is the first image in every category. Focus on these image if you are applying protective transformations by manually manipulating the images.
 * Before getting started, read the overview paper already linked above.
 
 ## How to submit
 * Make sure that you have signed up to participate in the task and have returned your usage agreement: http://multimediaeval.org/files/usageagreement2018.html Confirm with Martha Larson (m.a.larson at tudelft.nl) that you are participating in the task.
 * You will then receive a Google docs folder in which to submit your runs. 
-** A "run" is a single image transformation algorithm, or type of image transformation, which you apply to the images in the test set.
-** For each run, please invent a unique run code that includes your team name (i.e., the team name is the one that you used to register). For example, `rteam_base`. 
-* When you carry out the run, appead the unique run code to each image filename, e.g., `rteam_base_Places365_val_00014191.jpg`
-** Create a .zip file for each run that contains the transformed test set images. Use the unique run code as the .zip file filename. 
+  * A "run" is a single image transformation algorithm, or type of image transformation, which you apply to the images in the test set.
+  * For each run, please invent a unique run code that includes your team name (i.e., the team name is the one that you used to register). For example, `rteam_base`. 
+  * When you carry out the run, appead the unique run code to each image filename, e.g., `rteam_base_Places365_val_00014191.jpg`
+  * Create a .zip file for each run that contains the transformed test set images. Use the unique run code as the .zip file filename. 
 * You can submit maximally five runs. If you have more than five approaches, you need to decide which of them are most promising and submit only those. This helps you focus on quality rather than quantity (and to fit your entire description into a 2-page paper).
 
 ## Information on the privacy-sensitive scene categories
