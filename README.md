@@ -14,7 +14,7 @@ The task data is a subset of the Places365-Standard data set.
 The task provides:
 * a list of 60 privacy-sensitive categories chosen from the original 365 scene categories.
 * a list of the Places365-Standard data set images to use as a *validation set* to develop your approach(es).
-* a list of the Places365-Standard data set images to use as a *test set* to develop your approach(es).
+* a list of the Places365-Standard data set images to use as a *test set*.
 
 To participate in the task, you must submit versions of the test images to which your protective transformation has been applied. The task organizers will then evaluate you transformation and return the results to you. Then, you write up your findings in a 2-page paper to submit to the MediaEval 2018 working notes proceedings. We are especially interested in identifying highly creative promising approaches, but also in negative results that provide information on what does not work. The task is in pilot this year, and is running on a highly compressed schedule.
 
@@ -31,11 +31,11 @@ To participate in the task, you must submit versions of the test images to which
 * The validation and the test sets for the MediaEval 2018 Pixel Privacy task are subsets of these validation images. Download the files that define these sets from: https://github.com/multimediaeval/2018-Pixel-Privacy-Task/tree/master/MEPP18labels
   * `MEPP18val.csv`: File names of the images that belong to the MediaEval 2018 Pixel Privacy task validation set (3,000 images total, 50 for each of the 60 privacy-senstive scene categories). Use this set of images to develop your approach(es) to protective transformation.
   * `MEPP18test.csv`: File names of the images that belong to the MediaEval 2018 Pixel Privacy task test set (3,000 images total, 50 for each of the 60 privacy-senstive scene categories). Apply your transformations to the test set images, and submit the protected test set images for evaluation.
-  * `MEPP18test_manual.csv`: A list of one image per category from the test set. If 'MEPP18test.csv' is alphabetized, this is the first image in every category. Focus on these image if you are applying protective transformations by manually manipulating the images.
+  * `MEPP18test_manual.csv`: A list of one image per category from the test set. If 'MEPP18test.csv' is alphabetized, this is the first image in every category. Focus on these image if you are applying protective transformations by manually manipulating the images (instead of using an automatic filter).
 * Before getting started, read the overview paper already linked above.
 
 ## How to submit
-* Make sure that you have signed up to participate in the task and have returned your usage agreement: http://multimediaeval.org/files/usageagreement2018.html Confirm with Martha Larson (m.a.larson at tudelft.nl) that you are participating in the task.
+* Make sure that you have signed up to participate in the task and have returned your usage agreement: http://multimediaeval.org/files/usageagreement2018.html Confirm with Martha Larson (m.a.larson at tudelft.nl) that you would like to participate in the task if you signed up but did not receive an email.
 * You will then receive a Google docs folder in which to submit your runs. 
   * A "run" is a single image transformation algorithm, or type of image transformation, which you apply to the images in the test set.
   * For each run, please invent a unique run code that includes your team name (i.e., the team name is the one that you used to register). For example, `rteam_base`. 
