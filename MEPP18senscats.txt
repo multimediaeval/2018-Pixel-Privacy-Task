@@ -1,6 +1,6 @@
 ﻿/a/airplane_cabin 1 
 /a/airport_terminal 2
-/a/amusement_park 
+/a/amusement_park 7
 /a/aqueduct 10
 /a/army_base 18
 /b/bank_vault 37
