@@ -1,6 +1,6 @@
 # 2018-Pixel-Privacy-Task
 
-This task develops image enhancement technology that helps to project user privacy. Specifically, it is dedicated to creating new approaches that invisibly change or visibly enhance images in such a way that it is no longer possible to automatically infer privacy-sensitive information.
+This task develops image enhancement technology that helps to protect user privacy. Specifically, it is dedicated to creating new approaches that invisibly change or visibly enhance images in such a way that it is no longer possible to automatically infer privacy-sensitive information.
 
 This page contains information on participating in the task. Please also read the overview paper for the task: the near-final draft is available here: 
 https://github.com/multimediaeval/2018-Pixel-Privacy-Task/blob/master/MEPP18_overviewpaper_v1.pdf
